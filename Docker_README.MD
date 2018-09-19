@@ -96,7 +96,10 @@ to attach new bash shell to the same container
 
 
 
-
+-------------
+Pending issues:
+ipynb module requires Python version >3.4. though the Python used in the docker is 3.5, it complains that the Python is 2.7.
+So with the docker, problems folder can not be run for now. However guided examples folder will run.
 
 
 
