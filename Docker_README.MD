@@ -47,11 +47,15 @@ Steps to run the code
 
  Building the code
 
-Once you pull the code from, build it using the command below:
-docker build -t "mlw" -f Dockerfile .
+Pull the code from github repo, 
+$ git clone https://github.com/ieee-mlw/ieee_ml.git
+
+build it using the command below:
+
+$ docker build -t "mlw" -f Dockerfile .
 
 or you can pull the docker image directly
-docker pull kgunnamieee/mlw
+$ docker pull kgunnamieee/mlw
 
 
 Section II. Executing the code
