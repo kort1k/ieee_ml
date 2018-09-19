@@ -1,5 +1,6 @@
 # ieee_ml
-
+A Message from IEEE ComSoC, ITSoC, CIS and Apollo AI:
+--------------------------------------------------------
 Instructions for 2018 IEEE Machine Learning Workshop attendees.
 ---------------------------------------------------------------
 Thank you all for signing up for the IEEE Machine Learing workshops at Texas Instruments( Silicon Valley Auditorium (Building E), 2900 Semiconductor Dr ,Santa Clara, CA 95051).
