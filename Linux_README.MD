@@ -2,20 +2,33 @@
 Tensor flow installation
 ---------------------------------
 https://www.tensorflow.org/install/install_linux#InstallingVirtualenv
-  sudo apt-get install python3-pip python3-dev python-virtualenv # for Python 3.n
-  pip install --upgrade pip
-  mkdir ~/tensorflow  # somewhere to work out of
-  cd ~/tensorflow
-  virtualenv --system-site-packages -p python3 venv # Use Python 3.n
-  source ~/tensorflow/venv/bin/activate      # bash, sh, ksh, or zsh
+
+ $ sudo apt-get install python3-pip python3-dev python-virtualenv # for Python 3.n
+  
+  
+ $ pip install --upgrade pip
+  
+ $ mkdir ~/tensorflow  # somewhere to work out of
+    
+ $ cd ~/tensorflow
+    
+ $ virtualenv --system-site-packages -p python3 venv # Use Python 3.n
+    
+ $ source ~/tensorflow/venv/bin/activate      # bash, sh, ksh, or zsh
   
 When the Virtualenv is activated, the shell prompt displays as (venv) $.
 Within the active virtual environment, upgrade pip:
+
 (venv)$ pip install --upgrade pip
+
 You can install other Python packages within the virtual environment without affecting packages outside the virtualenv.
-  pip install --upgrade tensorflow
+
+(venv)$ pip install --upgrade tensorflow
+
 Use pip list to show the packages installed in the virtual environment. Validate the install and test the version:
+
 (venv)$ python -c "import tensorflow as tf; print(tf.__version__)"
+
 Success: TensorFlow is now installed.
 
 While here do additional installation steps and downloading repos as needed.
