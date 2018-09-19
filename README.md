@@ -12,9 +12,9 @@ A.Logistics:
 1. All the attendees are requested to arrive before 4pm on 9/24 and 9/25 to ensure smooth check-in. The workshop starts at 4pm on each day.We are expecting 125+ attendees on-site and there would be WebEx avaiilable for 
 Texas Instruments Employees from remote sites. 
 2. Snacks will be provided at the start of the event on each day.(4pm to 4.15pm)
-sandwiches will be provided for dinner on Mon (~6.30pm to 6.50pm)
-Pizza will be be provided for dinner on tue. (~6.30pm to 6.50pm)
-Both vegetarian diet is also provided in additition to meat based diet. 
+Sandwiches will be provided for dinner on Mon (~6.30pm to 6.50pm).
+Pizza will be be provided for dinner on tue. (~6.30pm to 6.50pm).
+Important Message to attendees of IEEE Workshops on Machine Learning 
 3. Course slides will be sent as pdf by Friday noon.
 
 *****4. If you are attending day 2 of workshop to do interactive programming exercsises, 
