@@ -14,7 +14,7 @@ A.Logistics:
 Texas Instruments Employees from remote sites. 
 2. Snacks will be provided at the start of the event on each day.(4pm to 4.15pm)
 Sandwiches will be provided for dinner on Mon (~6.30pm to 6.50pm).
-Pizza will be be provided for dinner on tue. (~6.30pm to 6.50pm).
+Pizza will be be provided for dinner on Tue. (~6.30pm to 6.50pm).
 Important Message to attendees of IEEE Workshops on Machine Learning 
 3. Course slides will be sent as pdf by Friday noon.
 
