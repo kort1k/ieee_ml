@@ -1,5 +1,7 @@
 
-Instructions for Machine Learning Workshop attendees.
+Instructions for 2018 IEEE Machine Learning Workshop attendees.
+---------------------------------------------------------------
+
 WiFi and Power Sockets
 ---------------------------------------
 1. There is no WiFi nor power socket available for attendees in the auditorium.
