@@ -7,8 +7,8 @@ WORKDIR /mlw
 # Copy the current directory contents into the container at /app
 ADD . /mlw
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
+# Install any needed packages specified in Docker_requirements.txt
+RUN pip install --trusted-host pypi.python.org -r Docker_requirements.txt
 RUN apt-get -y update
 RUN apt-get -y install vim 
 RUN apt-get -y install nano
