@@ -14,13 +14,13 @@ A.Logistics:
 Texas Instruments Employees from remote sites. 
 2. Snacks will be provided at the start of the event on each day.(4pm to 4.15pm)
 Sandwiches will be provided for dinner on Mon (~6.30pm to 6.50pm).
-Pizza will be be provided for dinner on Tue. (~6.30pm to 6.50pm).
-Important Message to attendees of IEEE Workshops on Machine Learning 
+Pizza will be provided for dinner on Tue. (~6.30pm to 6.50pm).
+
 3. Course slides will be sent as pdf by Friday noon.
 
 *****4. If you are attending day 2 of workshop to do interactive programming exercsises, 
 you must prepare the laptop with the setup in advance before the workshop based 
-on the following instructions.****
+on the following instructions in  sections B & C below..****
 
 5. Lot of attendees have this qustion: I purchased a two-day ticket and it mentions Workshops 1 and 2. However, the ticket mentions only 1 day(either 9/24 or 9/25). Is the ticket valid for both days?
 
@@ -30,7 +30,7 @@ IEEE ML team: Sorry for the confusion-it has to do with how eventbrite handles m
 
 B. WiFi and Power Sockets
 ---------------------------------------
-1. There is no WiFi and no power sockets available for attendees in TI auditorium.
+1. There is no availability of WiFi and power sockets for attendees in TI auditorium.
 Please bring a fully charged laptop along with the software installed as per section C below.
 Espcially on day-2, your laptop should last atleast for 2 hours for the interactive exercises.
 
@@ -38,7 +38,7 @@ Espcially on day-2, your laptop should last atleast for 2 hours for the interact
 5 course volunteers who would be helping the attendees. If you need to use WiFi on laptop for any purpose,
 you may want to tether to your mobile phone's hotspot.However please **do not count** on installing the software packages 
 while on mobile tethering as the software packages for Python and tensorflow are **very large**. These best can be installed
-while on high speed connection at work or at home.)
+while you are on high speed connection at work or at home.)
 
 
 C. This Important notice is applicable for people who are attending Day 2 of the workshop.
@@ -46,6 +46,17 @@ C. This Important notice is applicable for people who are attending Day 2 of the
 
 2. You must prepare the laptop with the setup in advance before the workshop based on the following instructions.
 
+Simple Setup
+-----------
+The setup is infact quite simple if you have a latest Tensorflow installation 
+and you may not need to do all the instructions.Only additional thing to 
+do download the course materials and repo and then do install additinal packages using
+pip install -r requirements.txt  
+Please make sure that you can run the course programs from Jupyter notebook to ensue you have right setup. If in doubt,
+please do the detailed setup as instructed below.
+
+Detailed Setup
+--------------- 
 Follow the instructions based on your preference:
 Repo home: https://github.com/ieee-mlw/ieee_ml
 
@@ -57,11 +68,11 @@ Install with Docker on Windows or Linux: See Docker_README.MD
 
 Install with MacOS: See Mac_README.MD
 
-
 This process installs several python and tensorflow packages using pip command or docker command. 
 For this you need internet connection.
 Also you should download the repo as the repo has local data so that the program can be run without 
 needing network connection to get the data.
+Please make sure that you can run these programs from Jupyter notebook.
 
  ***********************************************************************************************
  You ***MUST*** complete the install process and downloading of course materials before coming to the Day *1* of workshop . 
@@ -90,12 +101,12 @@ You can also reach us directly through eventbrite contact page or
 the course email address(though which we reached out to all the attendees).
 
 
-4. For attendees who still have setup issues and whose issues were not resolved through Google Groups:
+4. It is important for all the attendees to come prepared with a working installation so that we focus on the programming and the concepts. For attendees who still have setup issues and whose issues were not resolved through Google Groups, we will do our best to help.
 
 For attendees who registered for both days: Limited installation help is available on the first evening of the workshop 
 For attendees who registered for 2nd day: Very limited installation help is available on the second evening of the workshop 
+It is very difficult to handle the installation issue if all 125+ attendees simply show up to the workshop without any installation preparation on thier side. So please do your part and try to get the installation done before coming to the workshop. This way, we can really focus on helping the people who may have real and hard problem in getting their installation right.
 
-
-5. It is important for all the attendees to come prepared with a working installation so that we focus on the programming and the concepts.
-
+Thank you again for your understanding, we look forward to provide you a great learning experience.
+IEEE ML workshop team.
 
