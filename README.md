@@ -4,26 +4,35 @@ Instructions for 2018 IEEE Machine Learning Workshop attendees.
 ---------------------------------------------------------------
 Thank you all for signing up for the workshops. Please check the event page for schedule and the address: 
 https://www.eventbrite.com/e/ieee-workshops-on-machine-learning-convolutional-neural-networks-and-tensorflow-tickets-45668033317
-All the attendees are requested to arrive before 4pm on 9/24 and 9/25 to ensure smooth check-in. The workshop starts at 4.15pm on each day.We are expecting 125+ attendees on-site and there would be WebEx avaiilable for 
-Texas Instruments Employees from remote sites.
 
-If you are attending day 2 of workshop to do interactive programming exercsises, 
+A.Logistics: 
+------------------------------------------
+
+1. All the attendees are requested to arrive before 4pm on 9/24 and 9/25 to ensure smooth check-in. The workshop starts at 4.15pm on each day.We are expecting 125+ attendees on-site and there would be WebEx avaiilable for 
+Texas Instruments Employees from remote sites. 
+2. Snacks are provided at the start of the event with
+the sandwiches for dinner on Mon and Pizza on tue. Both vegetarian diet is also provided in additition
+to meat based diet. 
+3. Course slides will be sent as pdf by Friday noon.
+
+*****4. If you are attending day 2 of workshop to do interactive programming exercsises, 
 you must prepare the laptop with the setup in advance before the workshop based 
-on the following instructions.
+on the following instructions.****
 
 
 
-WiFi and Power Sockets
+B. WiFi and Power Sockets
 ---------------------------------------
 1. There is no WiFi and no power sockets available for attendees in TI auditorium.
 Please bring a fully charged laptop. 
 Espcially on day-2, your laptop should last atleast for 2 hours for the interactive exercises.
 
 (We have limited WiFi connectivity and access to power sockets in the auditorium-this is mainly for 
-5 course volunteers who would be helping the attendees.)
+5 course volunteers who would be helping the attendees. If you need to use WiFi on laptop, you may want
+to tether to your mobile phone's hotspot.)
 
 
-This Important notice is applicable for people who are attending Day 2 of the workshop.
+C. This Important notice is applicable for people who are attending Day 2 of the workshop.
 ----------------------------------------------------------------------------------------------------------------------------
 
 2. You must prepare the laptop with the setup in advance before the workshop based on the following instructions.
