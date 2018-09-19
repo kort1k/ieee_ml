@@ -23,7 +23,7 @@ on the following instructions.****
 
 5. Lot of attendees have this qustion: I purchased a two-day ticket and it mentions Workshops 1 and 2. However, the ticket mentions only 1 day(either 9/24 or 9/25). Is the ticket valid for both days?
 
-Sorry for the confusion-it has to do with how eventbrite handles multi-day events. Yes, the 2-day ticket is valid for both the days.
+IEEE ML team: Sorry for the confusion-it has to do with how eventbrite handles multi-day events. Yes, the 2-day ticket is valid for both the days.
 
 
 
