@@ -1,14 +1,15 @@
 
+Instructions for Machine Learning Workshop attendees.
 WiFi and Power Sockets
 ---------------------------------------
-1. There is no WiFi nor power socket available for attendees.
+1. There is no WiFi nor power socket available for attendees in the auditorium.
 If you are bringing a laptop, please bring a fully charged laptop.
 
 
 This Important notice is applicable for people who are attending Day 2 of the workshop.
 ----------------------------------------------------------------------------------------------------------------------------
 
-2. You must prepare the laptop wiht the setup in advance before the workshop based on the following instructions.
+2. You must prepare the laptop with the setup in advance before the workshop based on the following instructions.
 
 Follow the instructions based on your preference:
 Install with Windows: See Windows_README.MD
