@@ -2,13 +2,14 @@
 
 Instructions for 2018 IEEE Machine Learning Workshop attendees.
 ---------------------------------------------------------------
-Thank you all for signing up for the workshops. Please check the event page for schedule and the address: 
-https://www.eventbrite.com/e/ieee-workshops-on-machine-learning-convolutional-neural-networks-and-tensorflow-tickets-45668033317
+Thank you all for signing up for the IEEE Machine Learing workshops at Texas Instruments( Silicon Valley Auditorium (Building E), 2900 Semiconductor Dr ,Santa Clara, CA 95051).
+Please check the event page for schedule and the detailed map of the location: https://www.eventbrite.com/e/ieee-workshops-on-machine-learning-convolutional-neural-networks-and-tensorflow-tickets-45668033317
+
 
 A.Logistics: 
 ------------------------------------------
 
-1. All the attendees are requested to arrive before 4pm on 9/24 and 9/25 to ensure smooth check-in. The workshop starts at 4.15pm on each day.We are expecting 125+ attendees on-site and there would be WebEx avaiilable for 
+1. All the attendees are requested to arrive before 4pm on 9/24 and 9/25 to ensure smooth check-in. The workshop starts at 4pm on each day.We are expecting 125+ attendees on-site and there would be WebEx avaiilable for 
 Texas Instruments Employees from remote sites. 
 2. Snacks will be provided at the start of the event on each day.(4pm to 4.15pm)
 sandwiches will be provided for dinner on Mon (~6.30pm to 6.50pm)
