@@ -14,21 +14,32 @@ Install git scm and bash shell.
 ***Now open the git bash terminal***
 --------------------------------------------------
 
-Use command
+1. Use command
 	$ pip3 install --upgrade tensorflow
 this will install tensorflow
+(For now install only cpu version. If you would like GPU version, better to use nv-docker images provided by Nvidia)
 
-Package can be downloaded from 
+2. Package can be downloaded from 
 	https://github.com/ieee-mlw/ieee_ml.git
 
 Or use command 
 	$ git clone https://github.com/ieee-mlw/ieee_ml.git
 
-Use command
+3. Use command
 	$ pip install -r requirements.txt
 
-Use command
+4. Use command
         $jupyter notebook 
         will automatically open Jupyter service in browser
+	
+	
+Potential issues 
+----------------------------------------
+
+Tensorflow install issues for Windows
+   
+We need a MSVCP140.DLL file to use tensorflow through python in Windows.
+This file can be installed during the installation of Visual C++ 2015
+redistributable (link: https://www.microsoft.com/en-us/download/details.aspx?id=53587 ) 
 
 
