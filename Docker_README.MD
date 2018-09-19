@@ -96,10 +96,22 @@ to attach new bash shell to the same container
 
 
 
--------------
-Pending issues:
-ipynb module requires Python version >3.4. though the Python used in the docker is 3.5, it complains that the Python is 2.7.
-So with the docker, problems folder can not be run for now. However guided examples folder will run.
+Section IV. Other useful commands:
+-----------------------------------
+docker images (to see the downloaded docker images)
+
+docker container list
+or
+docker container ls
+or
+docker ps 
+                    (to get the docker processes and their id)
+docker kill "docker process_id"
+docker commit "container_id" "docker_image" (use this to commit changes in container to image)
+docker push "docker_image" (push the local image changes to docker repo/hub)
+
+See https://docs.docker.com/get-started/#images-and-containers
+
 
 
 
