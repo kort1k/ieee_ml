@@ -36,6 +36,8 @@ Install with Linux: See Linux_README.MD
 
 Install with Docker on Windows or Linux: See Docker_README.MD
 
+Install with MacOS: See Mac_README.MD
+
 
 This process installs several python and tensorflow packages using pip command or docker command. 
 For this you need internet connection.
