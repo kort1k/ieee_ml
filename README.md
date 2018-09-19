@@ -37,7 +37,7 @@ Espcially on day-2, your laptop should last atleast for 2 hours for the interact
 5 course volunteers who would be helping the attendees. If you need to use WiFi on laptop for any purpose,
 you may want to tether to your mobile phone's hotspot.However please **do not count** on installing the software packages 
 while on mobile tethering as the software packages for Python and tensorflow are **very large**. These best can be installed
-while on high speed connection at work or at home)
+while on high speed connection at work or at home.)
 
 
 C. This Important notice is applicable for people who are attending Day 2 of the workshop.
@@ -46,6 +46,7 @@ C. This Important notice is applicable for people who are attending Day 2 of the
 2. You must prepare the laptop with the setup in advance before the workshop based on the following instructions.
 
 Follow the instructions based on your preference:
+Repo home: https://github.com/ieee-mlw/ieee_ml
 
 Install with Windows: See Windows_README.MD
 
