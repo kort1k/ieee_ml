@@ -2,9 +2,16 @@
 
 Instructions for 2018 IEEE Machine Learning Workshop attendees.
 ---------------------------------------------------------------
+Thank you all for signing up for the workshops. Please check the event page for schedule and the address: 
+https://www.eventbrite.com/e/ieee-workshops-on-machine-learning-convolutional-neural-networks-and-tensorflow-tickets-45668033317
+All the attendees are requested to arrive before 4pm on 9/24 and 9/25 to ensure smooth check-in. The workshop starts at 4.15pm on each day.We are expecting 125+ attendees on-site and there would be WebEx avaiilable for 
+Texas Instruments Employees from remote sites.
+
 If you are attending day 2 of workshop to do interactive programming exercsises, 
 you must prepare the laptop with the setup in advance before the workshop based 
 on the following instructions.
+
+
 
 WiFi and Power Sockets
 ---------------------------------------
@@ -54,9 +61,12 @@ In any case, if you encounter any issues,
 
 Help is available through Google Groups on 9/20 to 9/23: If you face any issues with the setup, please join the Google Groups
 https://groups.google.com/forum/#!forum/ieee-machine-learning-workshop
-and ask your question there,it is not already answered. 
+and ask your question there, if it is not already answered. 
 We have a team of volunteers monitoring this group to address any issues. 
 Remote help through Google Hangouts is available-but would be very limited.
+
+You can also reach us directly through eventbrite contact page or 
+the course email address(though which we reached out to all the attendees).
 
 
 4. For attendees who still have setup issues and whose issues were not resolved through Google Groups:
