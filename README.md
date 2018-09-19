@@ -24,12 +24,14 @@ on the following instructions.****
 B. WiFi and Power Sockets
 ---------------------------------------
 1. There is no WiFi and no power sockets available for attendees in TI auditorium.
-Please bring a fully charged laptop. 
+Please bring a fully charged laptop along with the software installed as per section C below.
 Espcially on day-2, your laptop should last atleast for 2 hours for the interactive exercises.
 
 (We have limited WiFi connectivity and access to power sockets in the auditorium-this is mainly for 
-5 course volunteers who would be helping the attendees. If you need to use WiFi on laptop, you may want
-to tether to your mobile phone's hotspot.)
+5 course volunteers who would be helping the attendees. If you need to use WiFi on laptop for any purpose,
+you may want to tether to your mobile phone's hotspot.However please **do not count** on installing the software packages 
+while on mobile tethering as the software packages for Python and tensorflow are **very large**. These best can be installed
+while on high speed connection at work or at home)
 
 
 C. This Important notice is applicable for people who are attending Day 2 of the workshop.
