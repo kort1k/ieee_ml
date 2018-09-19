@@ -6,7 +6,10 @@ Instructions for 2018 IEEE Machine Learning Workshop attendees.
 WiFi and Power Sockets
 ---------------------------------------
 1. There is no WiFi nor power socket available for attendees in the auditorium.
-If you are bringing a laptop, please bring a fully charged laptop.
+Please bring a fully charged laptop. On day-2, your laptop should last atleast for 2 hours for the interactive exercises.
+
+(We have limited WiFi connectivity and access to power sockets in the auditorium-this is mainly for 
+5 course volunteers who would be helping the attendees.)
 
 
 This Important notice is applicable for people who are attending Day 2 of the workshop.
