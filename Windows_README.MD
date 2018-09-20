@@ -26,6 +26,7 @@ Or use command
 	$ git clone https://github.com/ieee-mlw/ieee_ml.git
 
 3. Once you checked out/download the above software package, Use commands
+
 	$ cd ieee_ml
 	
 	This directory has two model directories (problem_sets and guided_examples) along with several text files.
