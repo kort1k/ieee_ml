@@ -39,16 +39,39 @@ Additional Steps while at (venv) $.
 	https://github.com/ieee-mlw/ieee_ml.git
 
 Or use command 
-	(venv) $. git clone https://github.com/ieee-mlw/ieee_ml.git
+	(venv) $ git clone https://github.com/ieee-mlw/ieee_ml.git
 
 4. Use command 
-	(venv) $. cd ieee_ml
-    (venv) $. pip install -r requirements.txt
+
+        (venv) $ cd ieee_ml
+This directory has two model directories (problem_sets and guided_examples) along with several text files. requirements.txt specifies required libraries for executing the models in the model diretories.
+	
+        (venv) $ pip install -r requirements.txt
+	
+(requirements.txt is in the directory of ieee_ml you just checked out)
 
 5. Use command
-        (venv) $.jupyter notebook 
+        (venv) $ jupyter notebook 
         will automatically open Jupyter service in browser
+	
+	
+6. Running Python files	[Optional]
+
+This package contains IPython notebooks (jupyter) and their executable python (.py) files. The .py files are obtained using the command "jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb" So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,
+
+ (venv) $ cd guided_examples
+
+ (venv) $  jupyter nbconvert --to kmeans.py kmeans.ipynb
+ (venv) $  python kmeans.py
+
+If you would like to run with debug mode enabled 
+
+ (venv) $  python kmeans.py --debug
+
 
 
 After your work is done, Use the deactivate command to stop the Python virtual environment.
+
+
+
 
