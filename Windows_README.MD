@@ -44,14 +44,14 @@ Or use command
 	This package contains IPython notebooks (jupyter) and their executable python (.py) files. The .py files are obtained using the command "jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb"
 	So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,
 	
-	$ cd guided_examples
+	$cd guided_examples
 	
-        $ jupyter nbconvert --to kmeans.py kmeans.ipynb
+        $jupyter nbconvert --to kmeans.py kmeans.ipynb
 	
-	$ python kmeans.py
+	$python kmeans.py
 	
 	If you would like to run with debug mode enabled
-	$ python kmeans.py --debug
+	$python kmeans.py --debug
 	
 	
 Potential Installation Issues
