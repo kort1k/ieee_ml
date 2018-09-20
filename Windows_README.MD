@@ -25,9 +25,10 @@ this will install tensorflow
 Or use command 
 	$ git clone https://github.com/ieee-mlw/ieee_ml.git
 
-3. Use command
+3. Use commands
+	$ cd ieee_ml
 	$ pip install -r requirements.txt
-
+(requirements.txt is in the directory of ieee_ml you just checked out)
 4. Use command
         $jupyter notebook 
         will automatically open Jupyter service in browser
