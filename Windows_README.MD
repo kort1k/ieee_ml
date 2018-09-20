@@ -25,16 +25,34 @@ this will install tensorflow
 Or use command 
 	$ git clone https://github.com/ieee-mlw/ieee_ml.git
 
-3. Use commands
+3. Once you checked out/download the above software package, Use commands
 	$ cd ieee_ml
+	
+	This directory has two model directories (problem_sets and guided_examples) along with several text files.
+	requirements.txt specifies required libraries for executing the models in the model diretories.
+	
 	$ pip install -r requirements.txt
 (requirements.txt is in the directory of ieee_ml you just checked out)
+
 4. Use command
         $jupyter notebook 
         will automatically open Jupyter service in browser
 	
+5. Running Python files	[Optional]
+
+	This package contains IPython notebooks (jupyter) and their executable python (.py) files. The .py files are obtained using the command "jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb"
+	So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,
 	
-Potential issues 
+	$ cd guided_examples
+        $ jupyter nbconvert --to kmeans.py kmeans.ipynb
+	
+	$ python kmeans.py
+	
+	If you would like to run with debug mode enabled
+	$ python kmeans.py --debug
+	
+	
+Potential Installation Issues
 ----------------------------------------
 
 Tensorflow install issues for Windows
