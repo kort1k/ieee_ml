@@ -17,9 +17,10 @@ Download and install docker-ce from https://www.docker.com/
 Direct link: https://store.docker.com/editions/community/docker-ce-desktop-windows
 
 
-
-
-
+Install with Docker on Mac:
+***************************
+Downloand and install docker-ce from https://www.docker.com/
+Direct link: https://store.docker.com/editions/community/docker-ce-desktop-mac
 
 Install with Docker on Linux:
 *****************************
@@ -98,20 +99,47 @@ to attach new bash shell to the same container
 
 Section IV. Other useful commands:
 -----------------------------------
-docker images (to see the downloaded docker images)
+To see the downloaded docker images)
+$ docker images 
 
-docker container list
+To get the docker processes/containers and their id
+$ docker container list
+
 or
-docker container ls
+
+$ docker container ls
+
 or
-docker ps 
-                    (to get the docker processes and their id)
-docker kill "docker process_id"
-docker commit "container_id" "docker_image" (use this to commit changes in container to image)
-docker push "docker_image" (push the local image changes to docker repo/hub)
+
+$ docker ps 
+
+To kill a docker containter called my_container, use 
+
+$ docker kill "my_container"
+
+To commit the changes in the container to docker image
+$ docker commit "container_id" "docker_image" 
+
+To push the local image changes to docker repo/hub)
+$ docker push "docker_image"
 
 See https://docs.docker.com/get-started/#images-and-containers
 
+
+Section V. Running Python files	[Optional]
+------------------------------------------
+
+This package contains IPython notebooks (jupyter) and their executable python (.py) files. The .py files are obtained using the command "jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb" So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,
+
+$ cd guided_examples
+
+$ jupyter nbconvert --to kmeans.py kmeans.ipynb
+ 
+$ python kmeans.py
+
+If you would like to run with debug mode enabled 
+
+$ python kmeans.py --debug
 
 
 
