@@ -2,13 +2,13 @@
 # coding: utf-8
 
 # # K-Means Example
-# 
+#
 # Implement K-Means algorithm with TensorFlow, and apply it to classify
 # handwritten digit images. This example is using the MNIST database of
 # handwritten digits as training samples (http://yann.lecun.com/exdb/mnist/).
-# 
+#
 # Note: This example requires TensorFlow v1.1.0 or over.
-# 
+#
 # - Author: Aymeric Damien
 # - Project: https://github.com/aymericdamien/TensorFlow-Examples/
 
@@ -45,16 +45,16 @@ sess = tf.Session()
 
 
 # ## Debugger
-# 
+#
 # ### Uncomment the below line and execute the code to run the debugger.
-# 
+#
 # ### Go to the link once you start execution    			http://localhost:6006/
 
 # In[3]:
 
 
 #Uncomment the below line to run the debugger
-sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064")
+#sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064")
 
 
 # In[4]:
@@ -116,7 +116,7 @@ sess.run(init_op, feed_dict={X: full_data_x})
 # Training
 #Train the algorithm for the steps pre-decided above
 for i in range(1, num_steps + 1):
-    #run the graph fragment to execute the operation (training, calculating avg distance) 
+    #run the graph fragment to execute the operation (training, calculating avg distance)
     #and evaluate each tensor using data from feed_dict
     _, d, idx = sess.run([train_op, avg_distance, cluster_idx],
                          feed_dict={X: full_data_x})
@@ -157,7 +157,6 @@ accuracy_op = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 # Test Model
 #load the test data and its corresponding labels
 test_x, test_y = mnist.test.images, mnist.test.labels
-#run the graph fragment to execute the operation (prediction and accutacy calculation) 
+#run the graph fragment to execute the operation (prediction and accutacy calculation)
 #and evaluate each tensor using data from feed_dict, print the accuracy
 print("Test Accuracy:", sess.run(accuracy_op, feed_dict={X: test_x, Y: test_y}))
-

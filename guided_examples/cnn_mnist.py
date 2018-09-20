@@ -26,9 +26,9 @@ from tensorflow.python import debug as tf_debug
 
 
 # ## Debugger
-# 
+#
 # ### Uncomment the below line and execute the code to run the debugger.
-# 
+#
 # ### Go to the link once you start execution    			http://localhost:6006/
 
 # In[2]:
@@ -36,7 +36,7 @@ from tensorflow.python import debug as tf_debug
 
 #Uncomment the below line to run the debugger
 #Add monitor=[hook] as a parameter to the estimators below
-hook = tf_debug.TensorBoardDebugHook("localhost:6064")
+#hook = tf_debug.TensorBoardDebugHook("localhost:6064")
 
 
 # In[3]:
@@ -148,7 +148,7 @@ def main(unused_argv):
     eval_data = mnist.test.images  # Returns np.array
     #load the test data labels
     eval_labels = np.asarray(mnist.test.labels, dtype=np.int32)
-    
+
     # Create the Estimator
     mnist_classifier = tf.estimator.Estimator(
         model_fn=cnn_model_fn, model_dir="/tmp/mnist_convnet_model")
@@ -169,7 +169,7 @@ def main(unused_argv):
     mnist_classifier.train(
         input_fn=train_input_fn,
         steps=400,
-        hooks=[hook])  #[logging_hook]
+        hooks=[logging_hook])  #[logging_hook]
 
     # Evaluate the model and print results
     eval_input_fn = tf.estimator.inputs.numpy_input_fn(
@@ -188,4 +188,3 @@ def main(unused_argv):
 #Changing steps back to 20000 in model training results in an accuracy of 97%
 if __name__ == "__main__":
     tf.app.run()
-
