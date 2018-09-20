@@ -45,6 +45,7 @@ Or use command
 	So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,
 	
 	$ cd guided_examples
+	
         $ jupyter nbconvert --to kmeans.py kmeans.ipynb
 	
 	$ python kmeans.py
