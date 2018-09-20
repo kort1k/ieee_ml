@@ -50,7 +50,7 @@ Simple Setup
 -----------
 The setup is infact quite simple if you have a latest Tensorflow installation 
 and you may not need to do all the instructions.Only additional thing to 
-do download the course materials and repo and then do install additinal packages using
+do download the course materials and repo and then do install additional packages using
 pip install -r requirements.txt  
 Please make sure that you can run the course programs from Jupyter notebook to ensue you have right setup. If in doubt,
 please do the detailed setup as instructed below.
@@ -86,7 +86,7 @@ Help on Setup
 
 3. What to do if you face setup issues before the workshop:
 The setup is infact quite simple if you have a latest Tensorflow installation. 
-Only additional thing to do download the course materials and repo and then do install additinal packages using
+Only additional thing to do download the course materials and repo and then do install additional packages using
 pip install -r requirements.txt  
 
 In any case, if you encounter any issues,
