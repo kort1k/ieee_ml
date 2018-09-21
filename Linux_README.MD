@@ -54,8 +54,6 @@ This directory has two model directories (problem_sets and guided_examples) alon
 
 	(venv) $ bash start.sh
 	
-The 
-	
 This starts the Jupyter notebook session on a localhost port while simultaneously indicating the URL to access Tensorboard for debugging the current script and also visualize the learning process at different stages during training.
 	
 6. Running Python files	[Optional]
