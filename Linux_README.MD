@@ -50,10 +50,13 @@ This directory has two model directories (problem_sets and guided_examples) alon
 	
 (requirements.txt is in the directory of ieee_ml you just checked out)
 
-5. Use command
-        (venv) $ jupyter notebook 
-        will automatically open Jupyter service in browser
+5. Before initiating the jupyter notebook command; run the start.sh bash file
+
+	(venv) $ bash start.sh
 	
+The 
+	
+This starts the Jupyter notebook session on a localhost port while simultaneously indicating the URL to access Tensorboard for debugging the current script and also visualize the learning process at different stages during training.
 	
 6. Running Python files	[Optional]
 
