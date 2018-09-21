@@ -36,12 +36,20 @@ Or use command
 	
 (requirements.txt is in the directory of ieee_ml you just checked out)
 
-4. Use command
+4. Before initiating the jupyter notebook command; run the start.sh bash file from the home directory.
+
+	$ chmod +x start.sh
+	$ ./start.sh
+
+This starts the Jupyter notebook session on a localhost port while simultaneously indicating the URL to access Tensorboard for debugging the current script and also visualize the learning process at different stages during training.
+
+
+5. Use command
 
         $ jupyter notebook 
         will automatically open Jupyter service in browser
 	
-5. Running Python files	[Optional]
+6. Running Python files	[Optional]
 
 	This package contains IPython notebooks (jupyter) and their executable python (.py) files. The .py files are obtained using the command "jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb"
 	So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,

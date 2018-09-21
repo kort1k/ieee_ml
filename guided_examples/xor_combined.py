@@ -24,17 +24,19 @@ sess = tf.Session()
 
 
 # ## Debugger
-# 
+#
 # ### Uncomment the below line and execute the code to run the debugger.
-# 
+#
 # ### Go to the link once you start execution    			http://localhost:6006/
 
 # In[3]:
 
 
 #Uncomment the below line to run the debugger
-sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064")
+#sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064",send_traceback_and_source_code=False)
 
+#Uncomment the line below for the CLI debugger. Run on .py files only!
+sess = tf_debug.LocalCLIDebugWrapperSession(sess)
 
 # In[4]:
 
@@ -90,7 +92,7 @@ with tf.name_scope("output") as scope:
 #define a python operation for the loss function
 with tf.name_scope("loss") as scope:
     #the operation that calculates the loss for our model, here it's the squared loss
-    loss = tf.reduce_mean(tf.squared_difference(y_estimated, Y)) 
+    loss = tf.reduce_mean(tf.squared_difference(y_estimated, Y))
 
 
 # In[10]:
@@ -116,7 +118,7 @@ init = tf.global_variables_initializer()
 #write the summary protocol buffers to event files
 writer = tf.summary.FileWriter("./logs/xor_logs", sess.graph)
 
-#run the graph fragment to execute the operation (initialize global vars) 
+#run the graph fragment to execute the operation (initialize global vars)
 sess.run(init)
 
 
@@ -127,64 +129,64 @@ sess.run(init)
 t_start = time.clock()
 
 #run the model for multiple epochs
-for epoch in range(100001):
-    
-    #run the graph fragment to execute the operation (training) 
+for epoch in range(10001):
+
+    #run the graph fragment to execute the operation (training)
     #and evaluate each tensor using data from feed_dict
     sess.run(train_step, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR})
-    
+
     #check if the step is a multiple of 10000
     if epoch % 10000 == 0:
-        
+
         #print the char 80 times, forms a separator
         print("_"*80)
-        
+
         #print the epoch number
         print('Epoch: ', epoch)
-       
+
         #print y_estimated
         print('   y_estimated: ')
-       
-        #run the graph fragment to execute the operation (y_estimated) 
+
+        #run the graph fragment to execute the operation (y_estimated)
         #and evaluate each tensor using data from feed_dict
         for element in sess.run(y_estimated, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR}):
             #print each value of y_estimated
             print('    ',element)
-        
-        
+
+
         #print W (theta1)
         print('   W: ')
-        #run the graph fragment to execute the operation (W) 
+        #run the graph fragment to execute the operation (W)
         for element in sess.run(W):
             #print each value from W
             print('    ',element)
-        
-        
+
+
         #print c(bias1)
         print('   c: ')
-        #run the graph fragment to execute the operation (c) 
+        #run the graph fragment to execute the operation (c)
         for element in sess.run(c):
             #print each value from c
             print('    ',element)
-        
-        
+
+
         #print w(theta2)
         print('   w: ')
-        #run the graph fragment to execute the operation (w) 
+        #run the graph fragment to execute the operation (w)
         for element in sess.run(w):
             #print each value from w
             print('    ',element)
-      
-    
+
+
         #print b(bias2)
         print('   b ')
         #run the graph fragment to execute the operation (b)
         for element in sess.run(b):
             #print each value from b
             print('    ',element)
-      
-    
-        #run the graph fragment to execute the operation (loss) 
+
+
+        #run the graph fragment to execute the operation (loss)
         #and evaluate each tensor using data from feed_dict, print the loss
         print('   loss: ', sess.run(loss, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR}))
 
@@ -197,4 +199,3 @@ print("_"*80)
 
 #print the execution time
 print('Elapsed time ', t_end - t_start)
-
