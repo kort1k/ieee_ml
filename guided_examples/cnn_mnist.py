@@ -36,7 +36,7 @@ from tensorflow.python import debug as tf_debug
 
 #Uncomment the below line to run the debugger
 #Add monitor=[hook] as a parameter to the estimators below
-#hook = tf_debug.TensorBoardDebugHook("localhost:6064")
+hook = tf_debug.TensorBoardDebugHook("localhost:6064",send_traceback_and_source_code=False)
 
 
 # In[3]:
@@ -104,6 +104,7 @@ def cnn_model_fn(features, labels, mode):
     # Input Tensor Shape: [batch_size, 1024]
     # Output Tensor Shape: [batch_size, 10]
     logits = tf.layers.dense(inputs=dropout, units=10)
+
 
     predictions = {
         # Generate predictions (for PREDICT and EVAL mode)

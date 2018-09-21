@@ -54,7 +54,7 @@ sess = tf.Session()
 
 
 #Uncomment the below line to run the debugger
-#sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064")
+sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064",send_traceback_and_source_code=False)
 
 
 # In[4]:
