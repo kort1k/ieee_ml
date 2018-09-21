@@ -114,7 +114,7 @@ For attendees who registered for both days: Limited installation help is availab
 For attendees who registered for 2nd day: Very limited installation help is available on the second evening of the workshop 
 It is very difficult to handle the installation issue if all 125+ attendees simply show up to the workshop without any installation preparation on thier side. So please do your part and try to get the installation done before coming to the workshop. This way, we can really focus on helping the people who may have real and hard problem in getting their installation right.
 
-Software Improvements in progress
+Documentation Improvements in progress
 ---------------------------------
 We recommend monitoring this repo to see if your files are up-to-date. There is no change in the additional packages needed (i.e. no changes in requirements.txt) for the software to run. We also plan to add some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow.
 
