@@ -17,7 +17,7 @@ Sandwiches will be provided for dinner on Mon (~6.30pm to 6.50pm).
 Pizza will be provided for dinner on Tue. (~6.30pm to 6.50pm).
 Vegetarian diet(sandwiches or pizzas based on the day) is also provided in additition to meat based diet.
 
-3. Course slides will be sent as pdf by Friday noon.
+3. Course slides are sent as pdf files on Friday afternoon through eventbrite. Please contact us if you have not received the slides. 
 
 *****4. If you are attending day 2 of workshop to do interactive programming exercsises, 
 you must prepare the laptop with the setup in advance before the workshop based 
@@ -26,6 +26,11 @@ on the following instructions in  sections B & C below..****
 5. Lot of attendees have this qustion: I purchased a two-day ticket and it mentions Workshops 1 and 2. However, the ticket mentions only 1 day(either 9/24 or 9/25). Is the ticket valid for both days?
 
 IEEE ML team: Sorry for the confusion-it has to do with how eventbrite handles multi-day events. Yes, the 2-day ticket is valid for both the days.
+Workshop 1 is on Monday and Workshop 2 is on Tuesday. 
+If you purchase Workshop 1 ticket from either day listed on eventbrite, you will need to attend on Monday.
+If you purchase Workshop 2 ticket from either day listed on eventbrite, you will need to attend on Tuesday. (this is your case)
+
+
 
 
 
@@ -108,6 +113,10 @@ the course email address(though which we reached out to all the attendees).
 For attendees who registered for both days: Limited installation help is available on the first evening of the workshop 
 For attendees who registered for 2nd day: Very limited installation help is available on the second evening of the workshop 
 It is very difficult to handle the installation issue if all 125+ attendees simply show up to the workshop without any installation preparation on thier side. So please do your part and try to get the installation done before coming to the workshop. This way, we can really focus on helping the people who may have real and hard problem in getting their installation right.
+
+Software Improvements in progress
+---------------------------------
+We recommend monitoring this repo to see if your files are up-to-date. There is no change in the additional packages needed (i.e. no changes in requirements.txt) for the software to run. We also plan to add some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow.
 
 Thank you again for your understanding, we look forward to provide you a great learning experience.
 IEEE ML workshop team.
