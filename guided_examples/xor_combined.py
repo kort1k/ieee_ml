@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # # XOR with TensorFlow
@@ -33,10 +33,8 @@ sess = tf.Session()
 
 
 #Uncomment the below line to run the debugger
-#sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064",send_traceback_and_source_code=False)
+# sess = tf_debug.TensorBoardDebugWrapperSession(sess, "localhost:6064")
 
-#Uncomment the line below for the CLI debugger. Run on .py files only!
-sess = tf_debug.LocalCLIDebugWrapperSession(sess)
 
 # In[4]:
 
@@ -56,8 +54,8 @@ W = tf.Variable(tf.truncated_normal([2,2]), name = "W")
 
 #declaring a variable which will retain its state through multiple runs with random values from normal distribution
 w = tf.Variable(tf.truncated_normal([2,1]), name = "w")
-
-
+tf.summary.histogram("hiddenlayer1", W)
+tf.summary.histogram("hiddenlayer1", w)
 # In[6]:
 
 
@@ -84,7 +82,7 @@ with tf.name_scope("hidden_layer") as scope:
 with tf.name_scope("output") as scope:
     #the operation at the outplut layer, matrix multiplication, addition and sigmoid activation
     y_estimated = tf.sigmoid(tf.add(tf.matmul(h,w),b))
-
+    tf.summary.histogram("hiddenlayer2", y_estimated)
 
 # In[9]:
 
@@ -93,7 +91,7 @@ with tf.name_scope("output") as scope:
 with tf.name_scope("loss") as scope:
     #the operation that calculates the loss for our model, here it's the squared loss
     loss = tf.reduce_mean(tf.squared_difference(y_estimated, Y))
-
+    tf.summary.scalar("loss", loss)
 
 # In[10]:
 
@@ -113,13 +111,13 @@ INPUT_XOR = [[0,0],[0,1],[1,0],[1,1]]
 OUTPUT_XOR = [[0],[1],[1],[0]]
 
 #python operation to initialize the global variables
-init = tf.global_variables_initializer()
+#init = tf.global_variables_initializer()
 
 #write the summary protocol buffers to event files
-writer = tf.summary.FileWriter("./logs/xor_logs", sess.graph)
+
 
 #run the graph fragment to execute the operation (initialize global vars)
-sess.run(init)
+#sess.run(init)
 
 
 # In[12]:
@@ -127,16 +125,21 @@ sess.run(init)
 
 #start the clock to record the execution time
 t_start = time.clock()
+with tf.Session() as sess:
 
+    # Step 10 create a log writer. run 'tensorboard --logdir=./logs/nn_logs'
+    writer = tf.summary.FileWriter("./logs/xor_logs_final1", sess.graph)
+    merged = tf.summary.merge_all()
+    tf.initialize_all_variables().run()
 #run the model for multiple epochs
-for epoch in range(10001):
+    for epoch in range(1000001):
 
-    #run the graph fragment to execute the operation (training)
-    #and evaluate each tensor using data from feed_dict
-    sess.run(train_step, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR})
+        #run the graph fragment to execute the operation (training)
+        #and evaluate each tensor using data from feed_dict
+        sess.run(train_step, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR})
+        #merge = tf.summary.merge_all()
+        #check if the step is a multiple of 10000
 
-    #check if the step is a multiple of 10000
-    if epoch % 10000 == 0:
 
         #print the char 80 times, forms a separator
         print("_"*80)
@@ -185,17 +188,22 @@ for epoch in range(10001):
             #print each value from b
             print('    ',element)
 
-
+        #merge = tf.summary.merge_all()
+        summary, loss_val = sess.run([merged,loss], feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR})
+        writer.add_summary(summary,epoch)
         #run the graph fragment to execute the operation (loss)
         #and evaluate each tensor using data from feed_dict, print the loss
-        print('   loss: ', sess.run(loss, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR}))
+        #print('   loss: ', sess.run(loss, feed_dict={X: INPUT_XOR, Y: OUTPUT_XOR}))
 
-#end the clock recording the execution time
-t_end = time.clock()
+    #end the clock recording the execution time
+    t_end = time.clock()
 
 
-#print the char 80 times, forms a separator
-print("_"*80)
+    #print the char 80 times, forms a separator
+    print("_"*80)
 
-#print the execution time
-print('Elapsed time ', t_end - t_start)
+    #print the execution time
+    print('Elapsed time ', t_end - t_start)
+
+
+    # In[ ]:
