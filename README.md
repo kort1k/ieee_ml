@@ -6,7 +6,7 @@ Instructions for 2018 IEEE Machine Learning Workshop attendees.
 Thank you all for signing up for the IEEE Machine Learing workshops at Texas Instruments( Silicon Valley Auditorium (Building E), 2900 Semiconductor Dr ,Santa Clara, CA 95051).
 Please check the event page for schedule and the detailed map of the location: https://www.eventbrite.com/e/ieee-workshops-on-machine-learning-convolutional-neural-networks-and-tensorflow-tickets-45668033317
 
-
+Please make sure to have the latest repo. More changes related to documention were done on 9/22 10.56pm.(please scroll down for the changes).
 A.Logistics: 
 ------------------------------------------
 
@@ -116,7 +116,7 @@ It is very difficult to handle the installation issue if all 125+ attendees simp
 
 Documentation and Debugger Improvements (Updated 09/22/18,10.56pm)
 --------------------------------------------------------------
-We also added some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow. Tensorflow_Visualisation_Debugging_Manual.pdf, Tensorflow_tutorial.pdf and the cheatsheet-python-grok.pdf as well as simple programs are in the basics directory. We also updated few software files related to Tensorboard debugger.
+We also added some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow. Tensorflow_Visualisation_Debugging_Manual.pdf, Tensorflow_tutorial.pdf and the cheatsheet-python-grok.pdf as well as simple programs are in the basics directory. We also updated few software files related to Tensorboard debugger as well as expected results as screenshots compiled into PDF files into guided examples and problem sets directorires. If you are using Docker image from Dockerhub(rather than building your own Docker imaage based on this repo),please make sure to check the latest Docker image(kgunnamieee/mlw) as it is scheduled to be updated using these changes on 9/23/18 around 10am.
 
 Thank you again for your understanding, we look forward to provide you a great learning experience.
 
