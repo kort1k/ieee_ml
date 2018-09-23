@@ -6,7 +6,8 @@ Instructions for 2018 IEEE Machine Learning Workshop attendees.
 Thank you all for signing up for the IEEE Machine Learing workshops at Texas Instruments( Silicon Valley Auditorium (Building E), 2900 Semiconductor Dr ,Santa Clara, CA 95051).
 Please check the event page for schedule and the detailed map of the location: https://www.eventbrite.com/e/ieee-workshops-on-machine-learning-convolutional-neural-networks-and-tensorflow-tickets-45668033317
 
-Please make sure to have the latest repo. More changes related to documention were done on 9/22 10.56pm.(please scroll down for the changes).
+Please make sure to have the latest repo. More changes related to documentation were done on 9/22 10.56pm.(please scroll down for the changes).
+-----------------------------------------------------------------------------------------------------------------------------------
 A.Logistics: 
 ------------------------------------------
 
