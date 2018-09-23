@@ -116,8 +116,8 @@ It is very difficult to handle the installation issue if all 125+ attendees simp
 
 Documentation and Debugger Improvements (Updated 09/22/18,10.56pm)
 --------------------------------------------------------------
-We also added some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow. Tensorflow_Visualisation_Debugging_Manual.pdf, Tensorflow_tutorial.pdf and the cheatsheet-python-grok.pdf as well as simple program are in the basics directory. We also updated few software files related to Tensorboard debugger.
-------------------------------------------------------------------------------------------------------
+We also added some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow. Tensorflow_Visualisation_Debugging_Manual.pdf, Tensorflow_tutorial.pdf and the cheatsheet-python-grok.pdf as well as simple programs are in the basics directory. We also updated few software files related to Tensorboard debugger.
+
 Thank you again for your understanding, we look forward to provide you a great learning experience.
 
 IEEE ML workshop team.
