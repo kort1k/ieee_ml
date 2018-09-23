@@ -36,9 +36,9 @@ from tensorflow.python import debug as tf_debug
 
 #Uncomment the below line to run the debugger
 #Add monitor=[hook] as a parameter to the estimators below
-#hook = tf_debug.TensorBoardDebugHook("localhost:6064",send_traceback_and_source_code=False)
+hook = tf_debug.TensorBoardDebugHook("localhost:6064",send_traceback_and_source_code=False)
 
-hooks = [tf_debug.LocalCLIDebugHook()]
+#hook = tf_debug.LocalCLIDebugHook()
 # In[3]:
 
 
@@ -170,7 +170,7 @@ def main(unused_argv):
     mnist_classifier.train(
         input_fn=train_input_fn,
         steps=400,
-        hooks=hooks)  #[logging_hook]
+        hooks=[hook])  #[logging_hook]
 
     # Evaluate the model and print results
     eval_input_fn = tf.estimator.inputs.numpy_input_fn(
@@ -178,7 +178,7 @@ def main(unused_argv):
         y=eval_labels,
         num_epochs=1,
         shuffle=False)
-    eval_results = mnist_classifier.evaluate(input_fn=eval_input_fn,hooks=hooks)
+    eval_results = mnist_classifier.evaluate(input_fn=eval_input_fn,hooks=[hook])
     print(eval_results)
 
 
