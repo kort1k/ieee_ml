@@ -117,7 +117,8 @@ It is very difficult to handle the installation issue if all 125+ attendees simp
 
 Documentation and Debugger Improvements (Updated 09/22/18,10.56pm)
 --------------------------------------------------------------
-We also added some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow. Tensorflow_Visualisation_Debugging_Manual.pdf, Tensorflow_tutorial.pdf and the cheatsheet-python-grok.pdf as well as simple programs are in the basics directory. We also updated few software files related to Tensorboard debugger as well as expected results as screenshots compiled into PDF files into guided examples and problem sets directorires. If you are using Docker image from Dockerhub(rather than building your own Docker imaage based on this repo),please make sure to check the latest Docker image(kgunnamieee/mlw) as it is scheduled to be updated using these changes on 9/23/18 around 10am.
+We also added some more optional files such as screenshot of tensorboard debugger and the expected results so that it is easy for attendees to follow. Tensorflow_Visualisation_Debugging_Manual.pdf, Tensorflow_tutorial.pdf and the cheatsheet-python-grok.pdf as well as simple programs are in the basics directory. We also updated few software files related to Tensorboard debugger as well as expected results as screenshots compiled into PDF files into guided examples and problem sets directorires. If you are using Docker image, please make sure to pull the latest Docker image(kgunnamieee/mlw) which is updated using these repo changes.
+We expect no additional changes at this time.
 
 Thank you again for your understanding, we look forward to provide you a great learning experience.
 
