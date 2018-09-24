@@ -55,7 +55,7 @@ This starts the Jupyter notebook session on a localhost port while simultaneousl
 	
 	$ cd guided_examples
 	
-        $ jupyter nbconvert --to kmeans.py kmeans.ipynb
+        $ jupyter nbconvert --to python kmeans.ipynb
 	
 	$ python kmeans.py
 	
