@@ -7,6 +7,7 @@ Python compatible with Tensorflow (3.5 or 3.6) installations can be found
 	https://www.python.org/downloads/
 	Make sure to select "Add Python 3.5 to PATH" (for 3.5 installation)
 	"Add Python 3.5 to PATH" (this is for 3.6 installation)
+	Please see that you install the 64-bit version of Python.
 	
 Install git scm and bash shell.
          https://gitforwindows.org/
