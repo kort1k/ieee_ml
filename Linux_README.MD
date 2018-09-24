@@ -63,6 +63,7 @@ This package contains IPython notebooks (jupyter) and their executable python (.
  (venv) $ cd guided_examples
 
  (venv) $  jupyter nbconvert --to python kmeans.ipynb
+ 
  (venv) $  python kmeans.py
 
 If you would like to run with debug mode enabled 
