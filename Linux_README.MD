@@ -60,15 +60,15 @@ This starts the Jupyter notebook session on a localhost port while simultaneousl
 
 This package contains IPython notebooks (jupyter) and their executable python (.py) files. The .py files are obtained using the command "jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb" So if you would like to work with .py files after updating .ipynb file, you need to run the above command to get corresponding .ipynb file. As an example,
 
- (venv) $ cd guided_examples
+ 	(venv) $ cd guided_examples
 
- (venv) $  jupyter nbconvert --to python kmeans.ipynb
+ 	(venv) $  jupyter nbconvert --to python kmeans.ipynb
  
- (venv) $  python kmeans.py
+ 	(venv) $  python kmeans.py
 
 If you would like to run with debug mode enabled 
 
- (venv) $  python kmeans.py --debug
+ 	(venv) $  python kmeans.py --debug
 
 
 
